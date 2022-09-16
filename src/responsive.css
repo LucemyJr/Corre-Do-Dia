@@ -1,0 +1,117 @@
+#btn-mobile{
+    display: none;
+}
+
+@media (max-width: 600px){
+
+    /* Header Section */
+    
+    .header{
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 1.5rem;
+    }
+    
+    #menu{
+        display: block;
+        position: absolute;
+        width: 80%;
+        top: 4.3rem;
+        right: 0px;
+        background-image: linear-gradient( to top, #4164b3 0%, #89a7d9 100%);
+        height: 0px;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        z-index: 1000 ; 
+    }
+    #nav.active #menu{
+        height: calc(100% - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a{
+        display: block;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    }
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        align-items: center;
+        font-size: 1.3rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburguer{
+        border-top: 0.125rem solid;
+        width: 1.25rem;
+        color: #fff;
+    }
+    #hamburguer::after, #hamburguer::before{
+        content: " ";
+        display: block;
+        width: 1.25rem;
+        height: 0.125rem;
+        background: currentColor;
+        margin-top: 0.3125rem;
+        position: relative;
+        transition: 0.3s;
+
+    }
+    #nav.active #hamburguer{
+        border-top-color: transparent;
+    }
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -0.4375rem;
+    }
+
+    /* Main Section */
+
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-1{
+        margin-left: 1rem;
+        margin: 1rem;
+        width: 24rem;
+        height: 25rem;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+    .container-1 h1{
+        width: 13rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .container-1 p{
+        width: 11rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .container-1 a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #143c99;
+        font-size: 1.2rem;
+        width: 8rem;
+        height: 2.7rem;
+    }
+
+
+
+
+
+
+}

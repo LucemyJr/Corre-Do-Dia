@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsive.css">
     <title>Corre do Dia</title>
 </head>
 <body>
     <header class="header">
-        <a href="#"><img src="assets/deadoces.svg" alt="Logo" class="logo"></a>
+        <a href="#"><img src="assets/clock.png" alt="Logo" class="logo"></a>
         <nav id="nav">
             <button id="btn-mobile">
                 <span id="hamburguer"></span>
@@ -21,15 +22,24 @@
             </ul>
         </nav>
     </header>
-    <div class="main-container">
-        <div class="container-1">
-            <div class="container-1-content">
-                <h1>Transforme a sua conta de energia em <span>dinheiro</span></h1>
-                <p>Mude para energia solar com a Insole. É simples e acessível, gerando economia e crédito para você realizar os seus sonhos e ainda ajudar o seu negócio crescer.</p>
-                <a href="#">Saiba mais</a>
+    <section class="section-1">
+        <div class="main-container">
+            <div class="container-1">
+                <div class="container-1-content">
+                    <h1>Transforme a sua conta de energia em <span>dinheiro</span></h1>
+                    <p>Mude para energia solar com a Insole. É simples e acessível, gerando economia e crédito para você realizar os seus sonhos e ainda ajudar o seu negócio crescer.</p>
+                    <a href="#">Saiba mais</a>
+                </div>
             </div>
         </div>
-    </div>
-<script src="src/script.js"></script>
+    </section>
+    <section class="section-2">
+        <div class="section-2-content">
+            <h1 class="section-2-tittle">Tecnologia para uma Gestão 360° na Saúde</h1>
+            <h2 class="section-2-subtittle">Aumente a produtividade, humanize o atendimento e alcance melhores resultados.</h2>
+        </div>  
+    </section>
+<script src="src/hamburguer.js"></script>
+<script src="src/scrollColor.js"></script>
 </body>
 </html>
