@@ -15,16 +15,19 @@
     
     #menu{
         display: block;
-        position: absolute;
+        position: fixed;
         width: 80%;
         top: 4.3rem;
         right: 0px;
-        background-image: linear-gradient( to top, #4164b3 0%, #89a7d9 100%);
+        backdrop-filter: blur(8px);
         height: 0px;
         transition: .6s;
         visibility: hidden;
         overflow-y: hidden;
         z-index: 1000 ; 
+    }
+    #menu.ativo{
+        background-color: #fff;
     }
     #nav.active #menu{
         height: calc(100% - 70px);
@@ -50,7 +53,7 @@
     #hamburguer{
         border-top: 0.125rem solid;
         width: 1.25rem;
-        color: #fff;
+        color: #000;
     }
     #hamburguer::after, #hamburguer::before{
         content: " ";
