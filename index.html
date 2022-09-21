@@ -4,42 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content= "width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="stylesheet" href="src/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive2.css">
     <title>Corre do Dia</title>
 </head>
 <body>
-    <header class="header">
-        <a href="#"><img src="assets/clock.png" alt="Logo" class="logo"></a>
+    <header id="header" class="header">
+        <a href="#" class="logo">Logo</a>
         <nav id="nav">
             <button id="btn-mobile" class="btnMobile">
                 <span id="hamburguer"></span>
             </button>
             <ul id="menu">
-                <li><a href="#start" id="menuOption1" class="menu-option">Inicio</a></li>
-                <li><a href="#about" id="menuOption2" class="menu-option">Sobre</a></li>
-                <li><a href="#trail" id="menuOption3" class="menu-option">Trilhas</a></li>
+                <li><a href="#start" id="menuOption1" class="menu-option">O CDD</a></li>
+                <li><a href="#about" id="menuOption2" class="menu-option">Mercado</a></li>
+                <li><a href="#trail" id="menuOption3" class="menu-option">Contato</a></li>
+                <li><a href="#trail" id="menuOption4" class="menu-option">Perguntas</a></li>
+                <li><a href="#trail" id="menuOption5" class="menu-option">Mais</a></li>
+                <li><a href="#trail" id="menuOption6" class="menu-option">Cadastre-se</a></li>
             </ul>
         </nav>
     </header>
+    <!-- section 1 -->
     <section class="section-1">
         <div class="main-container">
             <div class="container-1">
                 <div class="container-1-content">
-                    <h1>Transforme a sua conta de energia em <span>dinheiro</span></h1>
-                    <p>Mude para energia solar com a Insole. É simples e acessível, gerando economia e crédito para você realizar os seus sonhos e ainda ajudar o seu negócio crescer.</p>
-                    <a href="#">Saiba mais</a>
+                    <h1>Quer uma experiência proficional <span>IMERCIVA</span>?</h1>
+                    <p>O corre do dia tá aqui para te ajudar a sentir na pele a sua profissão futura!</p>
+                    <a href="#">Crie sua conta</a>
                 </div>
+            </div>
+            <div class="main-container-img">
+                <img src="assets/Homem ensinando.png" alt="Imagem de um homem ensinando" class="main-img">
             </div>
         </div>
     </section>
+        <!-- section 2 -->
     <section class="section-2">
+        <img src="assets/Mulher lendo.png" alt="Mulher lendo" class="section-2-img">
         <div class="section-2-content">
-            <h1 class="section-2-tittle">Tecnologia para uma Gestão 360° na Saúde</h1>
-            <h2 class="section-2-subtittle">Aumente a produtividade, humanize o atendimento e alcance melhores resultados.</h2>
+            <h1 class="section-2-tittle">Sobre nós</h1>
+            <p class="section-2-subtittle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus.<br><br> 
+                In placerat, felis vitae sodles dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed.<br><br>
+                Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a leo euismod dictum. Sed sodales est efficitur arcu tincidunt tincidunt. Curabitur fringilla, risus at feugiat feugiat, nisl nulla tincidunt tellus, elementum elementum lorem nisl eleifend dolor. Nullam eget dui at sem ullamcorper luctus.</p>
         </div>  
     </section>
-<script src="src/hamburguer.js"></script>
-<script src="src/scrollColor.js"></script>
+        <!-- section 3 -->
+    <section class="section-3">
+        <h1 class="section-3-tittle">Corres</h1>
+        <p class="section-3-subtittle">
+            Ao criar sua conta, você sera enviado para fazer um teste vocacional, depois vai ser designado(a) 
+            para uma das três áreas de atuação abaixo, e em seguida, vai se deparar com uma trilhas com situações
+            que podem ocorrer no cotidiano de algumas profissões ligadas a essa área selecionada para você, cabendo
+            a você qual decisão tomar diante de cada situação.
+        </p>
+        <div class="areas-container">
+            <div class="area">
+                <img src="assets/Saude.png" alt="Logo saúde" class="area-logo">
+                <h1 class="area-tittle">Saúde</h1>
+                <p class="area-resume">
+                    Utilizam da experimentação e pesquisa para entender os seres vivos e sua relação 
+                    com o meio ambiente. É também a área que estuda questões de saúde.
+                </p>
+            </div>
+            <div class="area">
+                <img src="assets/humanas.png" alt="Logo humanas" class="area-logo">
+                <h1 class="area-tittle">Humanas</h1>
+                <p class="area-resume">
+                    Utiliza estudos estatísticos e relatos sociais, para compor um melhor 
+                    entendimento da sociedade, das relações sociais e cultura.	
+                </p>
+            </div>
+            <div class="area">
+                <img src="assets/exatas.png" alt="Logo exatas" class="area-logo">
+                <h1 class="area-tittle">Exatas</h1>
+                <p class="area-resume">
+                    Utilização da matemática e do raciocínio lógico para a solução de 
+                    problemas e teste de hipóteses.
+                </p>
+            </div>
+        </div>
+        <p class="section-3-subtittle">
+            Ao finalizar a tilha, você vai receber um resumo das profissões
+            em que sua resposta foi a mais adequada para a situação, e
+            uma quantia de pontos para resgatar itens e certificados do
+            nosso <a href="#">Mercado de Moedas</a>. 
+        </p>
+    </section>
+<script src="js/hamburguer.js"></script>
+<script src="js/scrollColor.js"></script>
 </body>
 </html>
