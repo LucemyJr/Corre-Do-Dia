@@ -187,5 +187,55 @@
 
 
 
-
+    /* Modal */
+    
+    .modal{
+        width: 80%;
+        height: 75%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .modal-tittle h1{
+        font-size: 1.5rem;
+    }
+    .input-tittles{
+        font-size: 1rem;
+    }
+    .modal-tittle h3{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    .modal-form{
+        width: 100%;
+        gap: 1rem;
+    }
+    .form-and-tittle{
+        gap: .5rem;
+    }
+    .form{
+        font-size: .7rem;
+    }
+    .form i{
+        margin-left: .7rem;
+    }
+    .form input{
+        height: 4rem;
+        font-size: .7rem;
+    }
+    .create-account{
+        width: 12rem;
+        height: 3rem;
+        font-size: .9rem;
+    }
+    .create-account:hover{
+        background-color: #13388a;
+    }
+    .modal-login{
+        text-align: center;
+        font-size: .8rem;
+        font-weight: 100;
+    }
+    .modal-login a{
+        color: #4164B3;
+    }
 }

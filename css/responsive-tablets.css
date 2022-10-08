@@ -116,7 +116,6 @@
     .create-login{
         margin-top: .6rem;
     }
-    }
     .create-account{
         width: 13rem;
         height: 4rem;
@@ -132,4 +131,5 @@
     }
     .modal-login a{
         color: #4164B3;
+    }
 }
