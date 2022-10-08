@@ -1,5 +1,7 @@
 @media (max-width: 1500px) and (min-width: 800px){
-
+    header{
+        justify-content: space-around;
+    }
     #menu{
         gap: 2rem;
     }
@@ -13,10 +15,16 @@
     }
     
     /* Main container */
-
+    .section-1{
+        background-image: none;
+    }
     .main-container{
         height: 50rem;
+        align-items: center;
     }
+    .main-container-img{
+        display: block;
+    }   
     .main-img{
         width: 40rem;
     }

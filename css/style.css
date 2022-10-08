@@ -30,12 +30,21 @@ header{
     padding: 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: #F9F9F9;
-    border-bottom: 1px solid #898989;
+    justify-content: flex-start;
+    background-color: transparent;
+    gap: 15rem;
 }
 header.ativo{
     background-color: #fff;
+}
+.logo{
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 10rem;
 }
 #nav{
     display: flex;
@@ -46,9 +55,9 @@ header.ativo{
     display: flex;
     gap: 3rem;
 }
-.logo{
+.icon-logo{
     width: 3rem;
-    color: #000;
+    color: #fff;
 }
 #menu a{
     list-style: none;
@@ -78,14 +87,20 @@ header.ativo{
 
 /* Main Container */
 
+.section-1{
+    background-image: url(../assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .main-container{
     height: 66rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.main-img{
-    width: 54rem;
+.main-container-img{
+    display: none;
 }
 .container-1{
     width: 30rem;

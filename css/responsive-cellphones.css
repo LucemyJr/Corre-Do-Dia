@@ -9,11 +9,15 @@
     .header{
         justify-content: space-between;
         background-color: #fff;
+        gap: 1rem;
+        padding: 1rem;
     }
     .logo{
         margin-left: 1.5rem;
     }
-    
+    .logo img{
+        width: 7rem;
+    }
     #menu{
         display: block;
         position: fixed;
@@ -79,7 +83,9 @@
     }
 
     /* Main Section */
-
+    .section-1{
+        background-image: none;
+    }
     .main-container{
         height: 50rem;
         flex-direction: column-reverse;
@@ -108,6 +114,9 @@
         height: 4rem;
         border-radius: 5px;
         margin-top: 3rem;
+    }
+    .main-container-img{
+        display: block;
     }
     .main-img{
         width: 20rem;

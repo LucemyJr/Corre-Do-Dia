@@ -5,24 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content= "width=device-width, user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/responsive2.css">
+    <link rel="stylesheet" href="css/responsive-cellphones.css">
+    <link rel="stylesheet" href="css/responsive-tablets.css">
     <title>Corre do Dia</title>
 </head>
 <body>
     <header id="header" class="header">
-        <a href="#" class="logo">Logo</a>
+        <picture class="logo">
+            <!-- <source media="(max-width: 800px)" srcset="assets/logo-azul.svg">
+            <source media="(min-width: 1500px)" srcset="assets/logo-branca.svg"> -->
+            <img src="assets/logo-azul.svg" alt="Logo">
+        </picture>
         <nav id="nav">
             <button id="btn-mobile" class="btnMobile">
                 <span id="hamburguer"></span>
             </button>
             <ul id="menu">
-                <li><a href="#start" id="menuOption1" class="menu-option">O CDD</a></li>
-                <li><a href="#about" id="menuOption2" class="menu-option">Mercado</a></li>
-                <li><a href="#trail" id="menuOption3" class="menu-option">Contato</a></li>
-                <li><a href="#trail" id="menuOption4" class="menu-option">Perguntas</a></li>
-                <li><a href="#trail" id="menuOption5" class="menu-option">Mais</a></li>
-                <li><a href="#trail" id="menuOption6" class="menu-option">Cadastre-se</a></li>
+                <li><a href="#about" id="menuOption1" class="menu-option">O CDD</a></li>
+                <li><a href="#test" id="menuOption2" class="menu-option">Teste Vocacional</a></li>
+                <li><a href="#trail" id="menuOption3" class="menu-option">Trilhas</a></li>
+                <li><a href="#run" id="menuOption4" class="menu-option">Seu Corre</a></li>
+                <li><a href="#marketplace" id="menuOption5" class="menu-option">Mercado</a></li>
+                <li><a href="#egister" id="menuOption6" class="menu-option">Cadastre-se</a></li>
             </ul>
         </nav>
     </header>
@@ -42,7 +46,7 @@
         </div>
     </section>
         <!-- section 2 -->
-    <section class="section-2">
+    <section class="section-2" id="about">
         <img src="assets/Mulher lendo.png" alt="Mulher lendo" class="section-2-img">
         <div class="section-2-content">
             <h1 class="section-2-tittle">Sobre nós</h1>
@@ -55,7 +59,7 @@
     <section class="section-3">
         <h1 class="section-3-tittle">Corres</h1>
         <p class="section-3-subtittle">
-            Ao criar sua conta, você sera enviado para fazer um teste vocacional, depois vai ser designado(a) 
+            Ao criar sua conta, você será redirecionado para um teste vocacional, depois, será designado(a) 
             para uma das três áreas de atuação abaixo, e em seguida, vai se deparar com uma trilhas com situações
             que podem ocorrer no cotidiano de algumas profissões ligadas a essa área selecionada para você, cabendo
             a você qual decisão tomar diante de cada situação.
