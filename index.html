@@ -26,7 +26,7 @@
                 <li><a href="#trail" id="menuOption3" class="menu-option">Trilhas</a></li>
                 <li><a href="#run" id="menuOption4" class="menu-option">Seu Corre</a></li>
                 <li><a href="#marketplace" id="menuOption5" class="menu-option">Mercado</a></li>
-                <li><a href="#egister" id="menuOption6" class="menu-option">Cadastre-se</a></li>
+                <li><a href="#register" id="register" class="menu-option">Cadastre-se</a></li>
             </ul>
         </nav>
     </header>
@@ -37,7 +37,7 @@
                 <div class="container-1-content">
                     <h1>Quer uma experiência profissional <span>IMERSIVA</span>?</h1>
                     <p>O corre do dia tá aqui para te ajudar a sentir na pele a sua profissão futura!</p>
-                    <a href="#">Crie sua conta</a>
+                    <a href="#register" id="registerBtn">Crie sua conta</a>
                 </div>
             </div>
             <div class="main-container-img">
@@ -97,7 +97,45 @@
             nosso <a href="#">Mercado de Moedas</a>. 
         </p>
     </section>
+    <div id="modal-login" class="modal-container">
+        <div class="modal">
+            <button class="closeModal-btn" id="btn-modal" >x</button>
+            <div class="modal-tittle">
+                <h1>Crie sua conta</h1>
+                <h3>Registre-se para começar</h3>
+            </div>
+            <div class="modal-form">
+                <div class="form-and-tittle">
+                    <h2 class="input-tittles">Nome</h2>
+                    <div class="form">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="Nome" id="name" placeholder="Entre com seu nome e sobrenome">
+                    </div>
+                </div>
+                <div class="form-and-tittle">
+                    <h2 class="input-tittles">Endereço de Email</h2>
+                    <div class="form">
+                        <i class="fa-solid fa-envelope-open"></i>
+                        <input type="email" name="Email" id="email" placeholder="Entre com seu e-mail">
+                    </div>
+                </div>
+                <div class="form-and-tittle">
+                    <h2 class="input-tittles">Senha</h2>
+                    <div class="form">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                    </div>
+                </div>
+                    <div class="create-login">
+                    <button class="create-account">Criar conta</button>
+                    <h2 class="modal-login">Já possui uma conta? <a href="#">Login</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="js/hamburguer.js"></script>
 <script src="js/scrollColor.js"></script>
+<script src="js/modal.js"></script>
+<script src="https://kit.fontawesome.com/a61adb45a7.js" crossorigin="anonymous"></script>
 </body>
 </html>

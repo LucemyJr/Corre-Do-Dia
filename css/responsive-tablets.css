@@ -87,4 +87,49 @@
         text-align: center;
         color: #767676;
     }
+    
+    /* Modal */
+    
+    .modal{
+        width: 60%;
+        height: 85%;
+    }
+    .modal-tittle h1{
+        font-size: 2.5rem;
+    }
+    .input-tittles{
+        font-size: 1.7rem;
+    }
+    .modal-tittle h3{
+        font-size: 1.5rem;
+    }
+    .form{
+        width: 100%;
+        height: 2rem;
+        background-color: #F6F6F6;
+        color: #A9A9A9;
+        font-size: 1.1rem;
+    }
+    .form input{
+        font-size: 1.1rem;
+    }
+    .create-login{
+        margin-top: .6rem;
+    }
+    }
+    .create-account{
+        width: 13rem;
+        height: 4rem;
+        font-size: 1.3rem;
+    }
+    .create-account:hover{
+        background-color: #13388a;
+    }
+    .modal-login{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    .modal-login a{
+        color: #4164B3;
 }
