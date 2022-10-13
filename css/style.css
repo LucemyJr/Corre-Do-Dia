@@ -87,20 +87,15 @@ header.ativo{
 
 /* Main Container */
 
-.section-1{
-    background-image: url(../assets/bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .main-container{
-    height: 66rem;
     display: flex;
-    justify-content: space-around;
+    height: 50rem;
     align-items: center;
+    justify-content: center;
+    gap: 8rem;
 }
-.main-container-img{
-    display: none;
+.main-container img{
+    max-width: 40vw;
 }
 .container-1{
     width: 30rem;
@@ -146,9 +141,9 @@ header.ativo{
 /* Section 2 */
 
 .section-2{
-    height: 40rem;
+    height: 60vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #F9F9F9;
 }
@@ -163,11 +158,11 @@ header.ativo{
     color: #4164B3;
 }
 .section-2-subtittle{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #767676;
 }
 .section-2-img{
-    width: 40rem;
+    max-width: 40vw;
 }
 
 /* section 3 */
@@ -198,8 +193,8 @@ header.ativo{
     gap: 4rem;
 }
 .area{
-    width: 28rem;
-    height: 28rem;
+    width: 24rem;
+    height: 24rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,8 +239,8 @@ header.ativo{
 .modal{
     position: relative;
     background-color: #fff;
-    width: 40%;
-    height: 75%;
+    width: 50%;
+    height: 80%;
     padding: 1rem;
     border: 3px solid #4164B3;
     box-shadow: 0 0 0 5px #fff;
