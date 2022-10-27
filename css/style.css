@@ -10,7 +10,6 @@
     font-family: sans-serif;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Montserrat', sans-serif;
 }
 ::-webkit-scrollbar{
     width: .6rem;
@@ -87,20 +86,16 @@ header.ativo{
 
 /* Main Container */
 
-.section-1{
-    background-image: url(../assets/bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .main-container{
-    height: 66rem;
     display: flex;
-    justify-content: space-around;
+    height: 50rem;
     align-items: center;
+    justify-content: center;
+    gap: 8rem;
 }
-.main-container-img{
-    display: none;
+.main-container img{
+    max-width: 35rem;
 }
 .container-1{
     width: 30rem;
@@ -141,14 +136,18 @@ header.ativo{
     align-items: center;
     color: #fff;
     background-color: #4164B3;
+    cursor: pointer;
+}
+.container-1 a:hover{
+    background-color: #13388a;
 }
 
 /* Section 2 */
 
 .section-2{
-    height: 40rem;
+    height: 60vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #F9F9F9;
 }
@@ -163,11 +162,11 @@ header.ativo{
     color: #4164B3;
 }
 .section-2-subtittle{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #767676;
 }
 .section-2-img{
-    width: 40rem;
+    max-width: 40vw;
 }
 
 /* section 3 */
@@ -191,6 +190,9 @@ header.ativo{
     font-size: 1.2rem;
     color: #767676;
 }
+.market-link{
+    color: #4164B3;
+}
 .areas-container{
     display: flex;
     justify-content: center;
@@ -198,8 +200,8 @@ header.ativo{
     gap: 4rem;
 }
 .area{
-    width: 28rem;
-    height: 28rem;
+    width: 24rem;
+    height: 24rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,8 +223,78 @@ header.ativo{
     text-align: center;
     color: #767676;
 }
+.vocational-btn{
+    width: 20rem;
+    height: 4rem;
+    color: #fff;
+    background-color: #4164B3;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.vocational-btn:hover{
+    background-color: #13388a;
+}
+.section-4{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.section-4 img{
+    width: 30rem;
+}
 
+.section-4-content{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    gap: 1.5rem;
+}
+.section-4-tittle{
+    width: 15rem;
+    color: #4164B3;
+    font-size: 1.8rem;
+}
+.section-4-subtittle{
+    color: #767676;
+}
+.section-4-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4164B3;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-4-btn:hover{
+    background-color: #13388a;
+}
+.section-4-btn i{
+    font-size: 1.5rem;
+}
 
+/* Copyrigths */
+
+.footer{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    color: #fff;
+    background-color: #4164B3;
+    gap: 1rem;
+}
 
 /* Modal Register */
 
@@ -244,8 +316,8 @@ header.ativo{
 .modal{
     position: relative;
     background-color: #fff;
-    width: 40%;
-    height: 75%;
+    width: 50%;
+    height: 80%;
     padding: 1rem;
     border: 3px solid #4164B3;
     box-shadow: 0 0 0 5px #fff;

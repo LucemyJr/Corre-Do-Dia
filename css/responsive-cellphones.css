@@ -83,13 +83,15 @@
     }
 
     /* Main Section */
-    .section-1{
-        background-image: none;
-    }
+
     .main-container{
         height: 50rem;
         flex-direction: column-reverse;
         justify-content: center;
+    }
+    .main-container img{
+        max-width: 20rem;
+        margin-top: 8rem;
     }
     .container-1{
         width: 20rem;
