@@ -186,8 +186,42 @@
         width: 16rem;
         font-size: 1rem;
     }
-
-
+    .vocational-btn{
+        padding: 2rem 0;
+    }
+    
+    /* Section 4 */
+    
+    .section-4{
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .section-4 img{
+        width: 20rem;
+    }
+    
+    .section-4-content{
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        gap: 1.5rem;
+    }
+    .section-4-tittle{
+        width: 20rem;
+    }
+    .section-4-subtittle{
+        color: #767676;
+    }
+    
+    /* Copyrigths */
+    
+    .footer{
+        height: 10rem;
+    }
 
     /* Modal */
     
@@ -239,5 +273,20 @@
     }
     .modal-login a{
         color: #4164B3;
+    }
+
+    /* Modal Seu corre */
+
+    .seu-corre-form{
+        width: 80%;
+        gap: 2rem;
+    }
+
+    .form-control{
+        width: 20rem;
+        height: 2.5rem;
+    }
+    .submit-btn{
+        height: 3rem;
     }
 }

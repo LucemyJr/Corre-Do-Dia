@@ -1,10 +1,10 @@
-const modal = document.getElementById('modal-test')
-const btn = document.getElementById('btn-modal')
-const container = document.getElementById('modal-test')
+const modalTeste = document.getElementById('modal-test')
+const btnTeste = document.getElementById('start-btn')
+const containerTeste = document.getElementById('modal-test')
 
 function fechaModal(){
-    modal.classList.remove('show')
+    modalTeste.classList.add('none')
 }
 
-btn.addEventListener('click', fechaModal)
-container.addEventListener('click', fechaModal)
+btnTeste.addEventListener('click', fechaModal)
+containerTeste.addEventListener('click', fechaModal)

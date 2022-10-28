@@ -239,6 +239,9 @@ header.ativo{
 .vocational-btn:hover{
     background-color: #13388a;
 }
+
+/* Section 4 */
+
 .section-4{
     margin-top: 4rem;
     display: flex;
@@ -425,6 +428,7 @@ header.ativo{
 }
 
 /* Modal Seu corre */
+
 .modal-seu-corre.show{
     display: flex;
     justify-content: center;

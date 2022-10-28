@@ -1,10 +1,12 @@
-
+.header{
+    justify-content: flex-start;
+}
 .test-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 12rem;
+    padding-top: 8rem;
     gap: 5rem;
 }
 
@@ -30,7 +32,7 @@
 
 /* Modal */
 
-.modal-container.show{
+.modal-test-container{
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -42,10 +44,11 @@
     justify-content: center;
     align-items: center;
 }
-.modal-container{
+.modal-test-container.none{
     display: none;
 }
-.modal{
+.modal-vocational{
+    position: relative;
     background-color: #fff;
     width: 40%;
     height: 85%;
@@ -58,23 +61,23 @@
     align-items: center;
     gap: 3rem;
 }
-.closeModal-btn{
-    position: absolute;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-    top: -20px;
-    right: -20px; 
-    width: 2.4rem;
-    height: 2.4rem;
-    border-radius: 1.2rem;
-    border: 4px solid #fff;
-    background-color: #F082A5;
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
-}
-.modal-tittle{
+.modal-test-tittle{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
+}
+.modal-test-img{
+    width: 20rem;
+}
+.start-test{
+    width: 15rem;
+    background-color: #4164B3;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.start-test:hover{
+    background-color: #13388a;
 }
