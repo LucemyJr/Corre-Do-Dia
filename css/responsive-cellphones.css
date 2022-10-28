@@ -278,13 +278,16 @@
     /* Modal Seu corre */
 
     .seu-corre-form{
-        width: 80%;
+        width: 90%;
+        height: 95%;
         gap: 2rem;
     }
-
+    .seu-corre-tittle{
+        font-size: .8rem;
+    }
     .form-control{
-        width: 20rem;
-        height: 2.5rem;
+        width: 21rem;
+        height: 2rem;
     }
     .submit-btn{
         height: 3rem;

@@ -271,13 +271,14 @@
             rows="10"
             required
             ></textarea>
+            <abbr class="info" title="Aqui você pode relatar uma situação vivida/possível onde o profissional esteja em uma situação complexa, difícil, interessante etc.">?</abbr>
           </div>
           <div class="col">
             <input
             type="text"
             name="measure1"
             class="form-control"
-            placeholder="Qual a primeira solução?"
+            placeholder="Qual a primeira solução e sua consequencia?"
             required
             />
           </div>
@@ -286,19 +287,22 @@
             type="text"
             name="measure2"
             class="form-control"
-            placeholder="Qual a segunda solução?"
+            placeholder="Qual a segunda solução e sua consequencia?"
             required
             />
           </div>
           <div class="col">
-            <input
-            type="text"
-            name="measure3"
-            class="form-control"
-            placeholder="Qual a terceira solução?"
-            required
-            />
-          </div>
+            <div class="input-container">
+              <input
+              type="text"
+              name="measure3"
+              class="form-control"
+              placeholder="Qual a terceira solução e sua consequencia?"
+              required
+              />
+            </div>
+            <abbr class="info" title="Você define uma solução onde apenas uma seria a mais correta, e relata o que aconteceria de desdobramento tomando aquela ação, inclusive da resposta mais correta.">?</abbr>
+           </div>
           <button type="submit" class="submit-btn" id="submit-corre">
             Enviar trilha
           </button>

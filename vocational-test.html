@@ -14,6 +14,7 @@
     <header id="header" class="header">
         <a href="index.html" class="logo">
             <img src="assets/logo-azul.svg" alt="Logo">
+            
         </a>
         </nav>
     </header>
@@ -21,13 +22,26 @@
         <h1 class="test-tittle">Teste Vocacional:</h1>
         <p id="test-text">Quando faz um trabalho em grupo, você é aquele(a) que:</p>
         <div class="test-options">
-            <button class="options" id="option1">Quer ir direto ao ponto</button>
-            <button class="options" id="option2">Analisa bem o escopo do trabalho antes de propor ações.</button>
-            <button class="options" id="option3">Propõe uma apresentação surpreendente ou tocante.</button>
-            <button class="options" id="option4">Conduz o grupo a agir em determinada direção.</button>
+            <div class="options-container">
+                <input type="radio" name="option1" id="radio1">
+                <label for="radio1" class="options" id="option1">Quer ir direto ao ponto.</label>
+            </div>
+            <div class="options-container">
+                <input type="radio" name="option2" id="radio2">
+                <label for="radio2" class="options" id="option2">Propõe uma apresentação surpreendente ou tocante.</label>
+            </div>
+            <div class="options-container">
+                <input type="radio" name="option3" id="radio3">
+                <label for="radio3" class="options" id="option3">Analisa bem o escopo do trabalho antes de propor ações.</label>
+            </div>
+            <div class="options-container">
+                <input type="radio" name="option4" id="radio4">
+                <label for="radio4" class="options" id="option4">Discute as ideias com o grupo.</label>
+            </div>
+            
         </div>
-        <div class="progress-bar" id="progress-bar">
-            <div></div>
+        <div class="next-question" id="question">
+            <button class="btn-next-question">Proxima pergunta</button>
         </div>
     </section>
     <div id="modal-test" class="modal-test-container">
