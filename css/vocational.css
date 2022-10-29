@@ -35,11 +35,50 @@
     gap: 3rem;
     align-items: center;
 }
-.options-container{
+
+.options{
     width: 13rem;
     height: 13rem;
     font-size: 1rem;
     padding: 1rem;
+    background-color: #4164B3;
+    border-radius: .5rem;
+    box-shadow: 3px 3px #333333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.options:hover{
+    background-color: #13388a;
+}
+.radio{
+    appearance: none;
+    border: 3px solid #4164B3;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.radio::before{
+    content: '';
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    background-color: #4164B3;
+    border-radius: 50%;
+    opacity: 0;
+}
+.radio:checked::before{
+    opacity: 1  ;
 }
 
 /* Modal */
@@ -62,8 +101,8 @@
 .modal-vocational{
     position: relative;
     background-color: #fff;
-    width: 40%;
-    height: 85%;
+    width: 40rem;
+    height: 40rem;
     padding: 1rem;
     border: 5px solid #4164B3;
     box-shadow: 0 0 0 5px #fff;
@@ -92,4 +131,78 @@
 }
 .start-test:hover{
     background-color: #13388a;
+}
+#congratulations{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+.text-result{
+    width: 40rem;
+    text-align: center;
+}
+#result{
+    color: #4164B3;
+}
+.btn-result{
+    background-color: #4164B3;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
+.next-question{
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 1rem;
+}
+.question-number{
+    display: flex;
+    font-size: 1.5rem;
+    background-color: #4164B3;
+    color: #fff;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+.btn-next-question{
+    display: none;
+    font-size: 1rem;
+    background-color: #4164B3;
+    color: #fff;
+    padding: .5rem;
+    border-radius: .3rem;
+    border: none;
+    cursor: pointer;
+}
+.btn-next-question:hover{
+    background-color: #13388a;
+}
+.confirm-answer{
+    font-size: 1rem;
+    background-color: #4164B3;
+    color: #fff;
+    padding: .5rem;
+    border-radius: .3rem;
+    border: none;
+    cursor: pointer;
+}
+.confirm-answer:hover{
+    background-color: #13388a;
+}
+
+@media (max-width: 800px){
+    .test-tittle{
+        font-size: 2rem;
+    }
+    #test-text{
+        font-size: 1.4rem;
+        margin: 0 1rem;
+        text-align: center;
+    }
+    .test-options{
+        display: flex;
+        flex-direction: column;
+    }
 }

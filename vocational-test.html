@@ -21,27 +21,44 @@
     <section class="test-main">
         <h1 class="test-tittle">Teste Vocacional:</h1>
         <p id="test-text">Quando faz um trabalho em grupo, você é aquele(a) que:</p>
-        <div class="test-options">
-            <div class="options-container">
-                <input type="radio" name="option1" id="radio1">
-                <label for="radio1" class="options" id="option1">Quer ir direto ao ponto.</label>
+        <div class="test-options" id="options-container">
+            <div>
+                <input type="radio" name="option" class="radio" id="radio1" value="option1">
+                <div class="options-container">
+                    <label for="radio1" class="options" id="option1">Quer ir direto ao ponto.</label>
+                </div>
             </div>
-            <div class="options-container">
-                <input type="radio" name="option2" id="radio2">
-                <label for="radio2" class="options" id="option2">Propõe uma apresentação surpreendente ou tocante.</label>
+            <div>
+                <input type="radio" name="option" class="radio" id="radio2" value="option1">
+                <div class="options-container">
+                    <label for="radio2" class="options" id="option2">Propõe uma apresentação surpreendente ou tocante.</label>
+                </div>
             </div>
-            <div class="options-container">
-                <input type="radio" name="option3" id="radio3">
-                <label for="radio3" class="options" id="option3">Analisa bem o escopo do trabalho antes de propor ações.</label>
+            <div>
+                <input type="radio" name="option" class="radio" id="radio3" value="option1">
+                <div class="options-container">
+                    <label for="radio3" class="options" id="option3">Analisa bem o escopo do trabalho antes de propor ações.</label>
+                </div>
             </div>
-            <div class="options-container">
-                <input type="radio" name="option4" id="radio4">
-                <label for="radio4" class="options" id="option4">Discute as ideias com o grupo.</label>
+            <div>
+                <input type="radio" name="option" class="radio" id="radio4" value="option1">
+                <div class="options-container">
+                    <label for="radio4" class="options" id="option4">Discute as ideias com o grupo.</label>
+                </div>
             </div>
             
         </div>
+        <div class="congratulations" id="congratulations">
+            <h1 class="text-result" id="testResult">Com base nas suas respostas, você tem mais aptidão para os cursos da área de: <span id="result">placeholder</span></h1>
+            <a href="index.html" class="btn-result"id="testResult">Voltar para a página inicial</a>
+        </div>
         <div class="next-question" id="question">
-            <button class="btn-next-question">Proxima pergunta</button>
+            <div class="question-number" id="question-number-container">
+                <p id="number-question">1</p>
+                <p>/15</p>
+            </div>
+            <button class="confirm-answer" id="confirmAnswer">Confirmar Resposta</button>
+            <button class="btn-next-question" id="next-question">Proxima pergunta</button>
         </div>
     </section>
     <div id="modal-test" class="modal-test-container">
@@ -52,6 +69,7 @@
         </div>
     </div>
 <script src="js/modal-teste.js"></script>
+<script src="js/testeVocacional.js"></script>
 <script src="https://kit.fontawesome.com/a61adb45a7.js" crossorigin="anonymous"></script>
 </body>
 </html>
