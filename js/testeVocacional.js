@@ -141,7 +141,7 @@ function nextQuestionWrapper(){
             option4.innerHTML = "Engajar-se em um trabalho voluntário." //Saúde
             break
         case 13:
-            question.innerHTML = "Engajar-se em um trabalho voluntário." //Pergunta
+            question.innerHTML = "Nos seus relacionamentos, você costuma ser:" //Pergunta
             option1.innerHTML = "Ponderado e criterioso nas suas escolhas." //Exatas
             option2.innerHTML = "Cuidadoso com o que fala." //Humanas
             option3.innerHTML = "Autoritário ou sedutor." //Nenhum

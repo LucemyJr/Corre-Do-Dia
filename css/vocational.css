@@ -132,6 +132,9 @@
 .start-test:hover{
     background-color: #13388a;
 }
+
+/* Congratulation Message */
+
 #congratulations{
     display: none;
     flex-direction: column;
