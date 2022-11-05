@@ -132,6 +132,14 @@
     flex-direction: column;
     gap: .5rem;
 }
+.options-you-do{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.options-you-do.hide{
+    display: none;
+}
 .solution{
     background-color: transparent;
     border: none;
@@ -158,6 +166,61 @@
     cursor: pointer;
 }
 
+/* Modal Consequences */
+
+.modal-consequence.show{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-consequence{
+    display: none;
+}
+#consequence-container{
+    position: relative;
+    background-color: #fff;
+    width: 40rem;
+    height: 45rem;
+    padding: 1rem;
+    border: 5px solid #4164B3;
+    box-shadow: 0 0 0 5px #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.modal-consequence-tittle{
+    text-align: center;
+    font-size: 2rem;
+}
+.modal-consequence-subtittle{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.consequences{
+    color: #4164B3;
+}
+.out-consequences{
+    width: 15rem;
+    background-color: #4164B3;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.out-consequences:hover{
+    background-color: #13388a;
+}
 
 /* Modal Trail */
 

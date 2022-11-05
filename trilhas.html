@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/trilhas.css">
     <link rel="stylesheet" href="css/responsive-cellphones.css" />
     <link rel="stylesheet" href="css/responsive-tablets.css" />
-    <link rel="shortcut icon" href="assets/logo-azul.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
     <title>Trilhas</title>
 </head>
 <body>
@@ -45,17 +45,19 @@
                 <h1 id="trial-tittle">DIREITO</h1>
                 <p id="you-are-a">Você é um(a) <span id="trial-office">Advogado(a)</span>:</p>
                 <p id="trial-situation">Seu cliente está sendo preso em flagrante e pouco se sabe sobre os fatos, e ainda não é possível prever com exatidão qual será o rumo seguido pela acusação. Porém uma testemunha é chamada e ela com provas que pode incriminam seu cliente. Seguindo a fase do procedimento de recebimento da denúncia ou da queixa  você deve apresentar uma defesa prévia em ate três dias uteis.</p>
-                <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
-                <div class="trail-solution">
-                    <button id="solution1" class="solution">
-                        A) Perguntar quais são as provas apresentadas pelo réu.
-                    </button>
-                    <button id="solution2" class="solution">
-                        B) Perguntar se a vítima e as testemunhas da acusação têm algo contra o réu  durante o julgamento.
-                    </button>
-                    <button id="solution2" class="solution">
-                        C) Perguntar se o réu  praticou o crime e colocar no processo.
-                    </button>
+                <div class="options-you-do" id="options-you-do-1">
+                    <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
+                    <div class="trail-solution">
+                        <button id="solution" class="solution" onclick="hideHumanasOptionsSection()">
+                            A) Perguntar quais são as provas apresentadas pelo réu.
+                        </button>
+                        <button id="solution" class="solution" onclick="hideHumanasOptionsSection()">
+                            B) Perguntar se a vítima e as testemunhas da acusação têm algo contra o réu  durante o julgamento.
+                        </button>
+                        <button id="solution" class="solution" onclick="hideHumanasOptionsSection()">
+                            C) Perguntar se o réu  praticou o crime e colocar no processo.
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -65,17 +67,19 @@
                 <h1 id="trial-tittle">MEDICINA</h1>
                 <p id="you-are-a">Você é um(a) <span id="trial-office">Médico(a)</span>:</p>
                 <p id="trial-situation">Imagine uma consulta em que você chegou um pouco atrasado(a) por motivos pessoais, e diante de você está um paciente irritado e que contesta não só o seu atraso mas tambem sua avaliação e medicamentos sugeridos.</p>
-                <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
-                <div class="trail-solution">
-                    <button id="solution1" class="solution">
-                        A) Insistia com o paciente que você sabia do que estava falando, e que você possui conhecimento suficiente para recomendar aquele receituário.
-                    </button>
-                    <button id="solution1" class="solution">
-                        B) Procurava saber exatamente os motivos pelos quais o paciente o estava questionando e trazia ponto a ponto esclarecido.
-                    </button>
-                    <button id="solution1" class="solution">
-                        C) Antes de tudo pediria desculpas pelo atraso, se possível, explique o motivo. Após isso buscaria entender o que aflige o paciente em relação a consulta.
-                    </button>
+                <div class="options-you-do" id="options-you-do-2">
+                    <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
+                    <div class="trail-solution">
+                        <button id="solution" class="solution" onclick="hideExatasOptionsSection()">
+                            A) Insistia com o paciente que você sabia do que estava falando, e que você possui conhecimento suficiente para recomendar aquele receituário.
+                        </button>
+                        <button id="solution" class="solution" onclick="hideExatasOptionsSection()">
+                            B) Procurava saber exatamente os motivos pelos quais o paciente o estava questionando e trazia ponto a ponto esclarecido.
+                        </button>
+                        <button id="solution" class="solution" onclick="hideExatasOptionsSection()">
+                            C) Antes de tudo pediria desculpas pelo atraso, se possível, explique o motivo. Após isso buscaria entender o que aflige o paciente em relação a consulta.
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -85,23 +89,35 @@
                 <h1 id="trial-tittle">MEDICINA</h1>
                 <p id="you-are-a">Você é um(a) <span id="trial-office">Médico(a)</span>:</p>
                 <p id="trial-situation">Imagine uma consulta em que você chegou um pouco atrasado(a) por motivos pessoais, e diante de você está um paciente irritado e que contesta não só o seu atraso mas tambem sua avaliação e medicamentos sugeridos.</p>
-                <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
-                <div class="trail-solution">
-                    <button id="solution1" class="solution">
-                        A) Insistia com o paciente que você sabia do que estava falando, e que você possui conhecimento suficiente para recomendar aquele receituário.
-                    </button>
-                    <button id="solution1" class="solution">
-                        B) Procurava saber exatamente os motivos pelos quais o paciente o estava questionando e trazia ponto a ponto esclarecido.
-                    </button>
-                    <button id="solution1" class="solution">
-                        C) Antes de tudo pediria desculpas pelo atraso, se possível, explique o motivo. Após isso buscaria entender o que aflige o paciente em relação a consulta.
-                    </button>
+                <div class="options-you-do" id="options-you-do-3">
+                    <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
+                    <div class="trail-solution">
+                        <button id="solution" class="solution" onclick="hideSaudeOptionsSection()">
+                            A) Insistia com o paciente que você sabia do que estava falando, e que você possui conhecimento suficiente para recomendar aquele receituário.
+                        </button>
+                        <button id="solution" class="solution" onclick="hideSaudeOptionsSection()">
+                            B) Procurava saber exatamente os motivos pelos quais o paciente o estava questionando e trazia ponto a ponto esclarecido.
+                        </button>
+                        <button id="solution" class="solution" onclick="hideSaudeOptionsSection()">
+                            C) Antes de tudo pediria desculpas pelo atraso, se possível, explique o motivo. Após isso buscaria entender o que aflige o paciente em relação a consulta.
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
         <div class="restart-container" id="restartContainer">
             <button class="restart-trials-btn" id="restartBtn">Escolher outra trilha</button>
         </div>
+    <div class="modal-consequence" id="modalConsequence">
+        <div id="consequence-container">
+            <h1 class="modal-consequence-tittle">Boa escolha</h1>
+            <h3 class="modal-consequence-subtittle">Veja a conclusão da problematica com base na sua opção de escolha:</h3>
+            <p class="consequences">Caso sua escolha foi a alternativa A: <span id="consequence1">CARREGANDO OPÇÃO A</span></p>
+            <p class="consequences">Caso sua escolha foi a alternativa B: <span id="consequence1">CARREGANDO OPÇÃO B</span></p>
+            <p class="consequences">Caso sua escolha foi a alternativa C: <span id="consequence1">CARREGANDO OPÇÃO C</span></p>
+            <button class="out-consequences" id="out-consequences-btn">Voltar para a trilha</button>
+        </div>
+    </div>
     <div id="modal-welcome-trial" class="trial-welcome">
         <div id="modal-trial" class="modal-trial">
             <h3 class="modal-trial-tittle">Bem vindo(a) a página de <span>Trilhas</span>.</h3>
