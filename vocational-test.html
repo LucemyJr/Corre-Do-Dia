@@ -24,27 +24,27 @@
         <p id="test-text">Quando faz um trabalho em grupo, você é aquele(a) que:</p>
         <div class="test-options" id="options-container">
             <div>
-                <input type="radio" name="option" class="radio" id="radio1" value="option1">
+                <input type="radio" name="option" class="radio" id="radio1" value="option1" onclick="showNextBtn()">
                 <div class="options-container">
-                    <label for="radio1" class="options" id="option1">Quer ir direto ao ponto.</label>
+                    <label for="radio1" class="options" id="option1" onclick="showNextBtn()">Quer ir direto ao ponto.</label>
                 </div>
             </div>
             <div>
-                <input type="radio" name="option" class="radio" id="radio2" value="option1">
+                <input type="radio" name="option" class="radio" id="radio2" value="option1" onclick="showNextBtn()">
                 <div class="options-container">
-                    <label for="radio2" class="options" id="option2">Propõe uma apresentação surpreendente ou tocante.</label>
+                    <label for="radio2" class="options" id="option2" onclick="showNextBtn()">Propõe uma apresentação surpreendente ou tocante.</label>
                 </div>
             </div>
             <div>
-                <input type="radio" name="option" class="radio" id="radio3" value="option1">
+                <input type="radio" name="option" class="radio" id="radio3" value="option1" onclick="showNextBtn()">
                 <div class="options-container">
-                    <label for="radio3" class="options" id="option3">Analisa bem o escopo do trabalho antes de propor ações.</label>
+                    <label for="radio3" class="options" id="option3" onclick="showNextBtn()">Analisa bem o escopo do trabalho antes de propor ações.</label>
                 </div>
             </div>
             <div>
-                <input type="radio" name="option" class="radio" id="radio4" value="option1">
+                <input type="radio" name="option" class="radio" id="radio4" value="option1" onclick="showNextBtn()">
                 <div class="options-container">
-                    <label for="radio4" class="options" id="option4">Discute as ideias com o grupo.</label>
+                    <label for="radio4" class="options" id="option4" onclick="showNextBtn()">Discute as ideias com o grupo.</label>
                 </div>
             </div>
             
@@ -58,8 +58,7 @@
                 <p id="number-question">1</p>
                 <p>/15</p>
             </div>
-            <button class="confirm-answer" id="confirmAnswer">Confirmar Resposta</button>
-            <button class="btn-next-question" id="next-question">Proxima pergunta</button>
+            <button class="btn-next-question" id="next-question" onclick="hideNextBtn()">Proxima pergunta</button>
         </div>
     </section>
     <div id="modal-test" class="modal-test-container">

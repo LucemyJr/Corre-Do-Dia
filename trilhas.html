@@ -49,16 +49,20 @@
                     <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
                     <div class="trail-solution">
                         <button id="solution" class="solution" onclick="hideHumanasOptionsSection()">
-                            A) Perguntar quais são as provas apresentadas pelo réu.
+                            A) <span id="solution-a">Perguntar quais são as provas apresentadas pelo réu.</span>
                         </button>
                         <button id="solution" class="solution" onclick="hideHumanasOptionsSection()">
-                            B) Perguntar se a vítima e as testemunhas da acusação têm algo contra o réu  durante o julgamento.
+                            B) <span id="solution-b">Perguntar se a vítima e as testemunhas da acusação têm algo contra o réu  durante o julgamento.</span>
                         </button>
                         <button id="solution" class="solution" onclick="hideHumanasOptionsSection()">
-                            C) Perguntar se o réu  praticou o crime e colocar no processo.
+                            C) <span id="solution-c">Perguntar se o réu  praticou o crime e colocar no processo.</span>
                         </button>
                     </div>
                 </div>
+                <div class="btns-consequences" id="consequence-btns-1">
+                    <button class="see-consequences" onclick="openModalConcequences()">Veja as consequencias</button>
+                    <button class="next-trail" id="nextTrail" onclick="nextTrailHumanas()">Proxima situação</button>
+                </div> 
             </div>
         </section>
         <section class="exatasSection" id="exatasSection">
@@ -71,15 +75,19 @@
                     <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
                     <div class="trail-solution">
                         <button id="solution" class="solution" onclick="hideExatasOptionsSection()">
-                            A) Insistia com o paciente que você sabia do que estava falando, e que você possui conhecimento suficiente para recomendar aquele receituário.
+                            A) <span id="solution-a">Insistia com o paciente que você sabia do que estava falando, e que você possui conhecimento suficiente para recomendar aquele receituário.</span>
                         </button>
                         <button id="solution" class="solution" onclick="hideExatasOptionsSection()">
-                            B) Procurava saber exatamente os motivos pelos quais o paciente o estava questionando e trazia ponto a ponto esclarecido.
+                            B) <span id="solution-b">Procurava saber exatamente os motivos pelos quais o paciente o estava questionando e trazia ponto a ponto esclarecido.</span>
                         </button>
                         <button id="solution" class="solution" onclick="hideExatasOptionsSection()">
-                            C) Antes de tudo pediria desculpas pelo atraso, se possível, explique o motivo. Após isso buscaria entender o que aflige o paciente em relação a consulta.
+                            C) <span id="solution-c">Antes de tudo pediria desculpas pelo atraso, se possível, explique o motivo. Após isso buscaria entender o que aflige o paciente em relação a consulta.</span>
                         </button>
                     </div>
+                </div>
+                <div class="btns-consequences" id="consequence-btns-2">
+                    <button class="see-consequences"onclick="openModalConcequences()">Veja as consequencias</button>
+                    <button class="next-trail" id="nextTrail" onclick="nextTrailExatas()">Proxima situação</button>
                 </div>
             </div>
         </section>
@@ -93,15 +101,19 @@
                     <h2 id="what-would-you-do">O QUE VOCÊ FARIA?</h2>
                     <div class="trail-solution">
                         <button id="solution" class="solution" onclick="hideSaudeOptionsSection()">
-                            A) Insistia com o paciente que você sabia do que estava falando, e que você possui conhecimento suficiente para recomendar aquele receituário.
+                            A) <span id="solution-a">Insistia com o paciente que você sabia do que estava falando, e que você possui conhecimento suficiente para recomendar aquele receituário.</span>
                         </button>
                         <button id="solution" class="solution" onclick="hideSaudeOptionsSection()">
-                            B) Procurava saber exatamente os motivos pelos quais o paciente o estava questionando e trazia ponto a ponto esclarecido.
+                            B) <span id="solution-b">Procurava saber exatamente os motivos pelos quais o paciente o estava questionando e trazia ponto a ponto esclarecido.</span>
                         </button>
                         <button id="solution" class="solution" onclick="hideSaudeOptionsSection()">
-                            C) Antes de tudo pediria desculpas pelo atraso, se possível, explique o motivo. Após isso buscaria entender o que aflige o paciente em relação a consulta.
+                            C) <span id="solution-c">Antes de tudo pediria desculpas pelo atraso, se possível, explique o motivo. Após isso buscaria entender o que aflige o paciente em relação a consulta.</span>
                         </button>
                     </div>
+                </div>
+                <div class="btns-consequences" id="consequence-btns-3">
+                    <button class="see-consequences" onclick="openModalConcequences()">Veja as consequencias</button>
+                    <button class="next-trail" id="nextTrail" onclick="nextTrailSaude()">Proxima situação</button>
                 </div>
             </div>
         </section>
@@ -113,8 +125,8 @@
             <h1 class="modal-consequence-tittle">Boa escolha</h1>
             <h3 class="modal-consequence-subtittle">Veja a conclusão da problematica com base na sua opção de escolha:</h3>
             <p class="consequences">Caso sua escolha foi a alternativa A: <span id="consequence1">CARREGANDO OPÇÃO A</span></p>
-            <p class="consequences">Caso sua escolha foi a alternativa B: <span id="consequence1">CARREGANDO OPÇÃO B</span></p>
-            <p class="consequences">Caso sua escolha foi a alternativa C: <span id="consequence1">CARREGANDO OPÇÃO C</span></p>
+            <p class="consequences">Caso sua escolha foi a alternativa B: <span id="consequence2">CARREGANDO OPÇÃO B</span></p>
+            <p class="consequences">Caso sua escolha foi a alternativa C: <span id="consequence3">CARREGANDO OPÇÃO C</span></p>
             <button class="out-consequences" id="out-consequences-btn">Voltar para a trilha</button>
         </div>
     </div>

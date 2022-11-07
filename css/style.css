@@ -145,11 +145,11 @@ header.ativo{
 /* Section 2 */
 
 .section-2{
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F9F9F9;
+    background-color: #F1F1F1;
 }
 .section-2-content{
     width: 52rem;
@@ -206,9 +206,10 @@ header.ativo{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F9f9f9;
+    background-color: #F1F1F1;
     border-bottom: 5px solid #4164B3;
     gap: 2rem;
+    box-shadow: 3px 4px 4px #878787;
 }
 .area-logo{
     width: 7rem;
@@ -381,7 +382,7 @@ header.ativo{
     align-items: center;
     width: 100%;
     height: 2rem;
-    background-color: #F6F6F6;
+    background-color: #F1F1F1;
     border-radius: .3rem;
     color: #A9A9A9;
     font-size: 1.1rem;
@@ -491,7 +492,7 @@ form{
     width: 24rem;
     height: 3rem;
     border: none;
-    background-color: #e0e0e0;
+    background-color: #F1F1F1;
     margin-bottom: .5rem;
     border-radius: .5rem;
     color: #212121;

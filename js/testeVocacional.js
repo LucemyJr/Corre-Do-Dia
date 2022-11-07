@@ -26,8 +26,7 @@ const congratulations = document.getElementById('congratulations')
 const nextQuestionNumber = document.getElementById('question')
 const nextQuestion = document.getElementById('next-question')
 
-const confirmAnswer = document.getElementById('confirmAnswer')
-
+// const confirmAnswer = document.getElementById('confirmAnswer')
 
 function nextQuestionWrapper(){
     questionNumber = questionNumber + 1
@@ -183,12 +182,7 @@ function showNextBtn(){
 function hideNextBtn(){
     nextQuestion.style.display = "none";
 }
-function showConfirmAnswer(){
-    confirmAnswer.style.display = "block";
-}
-function hideConfirmAnswer(){
-    confirmAnswer.style.display = "none";
-}
+
 nextQuestion.addEventListener('click', nextQuestionWrapper)
 nextQuestion.addEventListener('click', uncheckRadio)
 confirmAnswer.addEventListener('click', showNextBtn )

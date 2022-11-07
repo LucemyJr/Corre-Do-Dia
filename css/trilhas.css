@@ -117,6 +117,7 @@
 }
 #trial-tittle{
     font-size: 2rem;
+    text-align: center;
 }
 #trial-office{
     font-weight: bold;
@@ -150,6 +151,36 @@
 .solution:hover{
     text-decoration: underline;
 }
+.btns-consequences{
+    display: none;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.see-consequences{
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    background-color: #4164B3;
+    color: #fff;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+.see-consequences:hover{
+    background-color: #00216A;
+}
+.next-trail{
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    background-color: #4164B3;
+    color: #fff;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+.next-trail:hover{
+    background-color: #00216A;
+}
 .restart-container{
     display: none;
     margin-top: 3rem;
@@ -164,6 +195,9 @@
     border-radius: .3rem;
     border: none;
     cursor: pointer;
+}
+.restart-trials-btn:hover{
+    background-color: #00216A;
 }
 
 /* Modal Consequences */
