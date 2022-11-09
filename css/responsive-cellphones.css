@@ -88,10 +88,11 @@
         height: 50rem;
         flex-direction: column-reverse;
         justify-content: center;
+        gap: 1rem;
     }
     .main-container img{
         max-width: 20rem;
-        margin-top: 8rem;
+        margin-top: 3rem;
     }
     .container-1{
         width: 20rem;
@@ -127,7 +128,7 @@
     /* Section 2 */
 
     .section-2{
-        height: 60rem;
+        height: 65rem;
         flex-direction: column;
         gap: 4rem;
     }

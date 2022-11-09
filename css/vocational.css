@@ -11,6 +11,8 @@
 }
 .header{
     justify-content: flex-start;
+    background-color: #fff;
+    z-index: 1000;
 }
 .test-main{
     display: flex;
@@ -207,5 +209,63 @@
     .test-options{
         display: flex;
         flex-direction: column;
+    }
+
+    /* Modal Welcome */
+
+    .modal-test-container.none{
+        display: none;
+    }
+    .modal-vocational{
+        position: relative;
+        background-color: #fff;
+        width: 70%;
+        height: 70%;
+        padding: 1rem;
+        border: 5px solid #4164B3;
+        box-shadow: 0 0 0 5px #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;  
+    }
+    .modal-test-tittle{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    .modal-test-img{
+        width: 15rem;
+    }
+    .start-test{
+        width: 15rem;
+        background-color: #4164B3;
+        padding: 1.5rem 0;
+        border-radius: 1rem;
+        color: #fff;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .start-test:hover{
+        background-color: #13388a;
+    }
+
+    /* Result */
+
+    .text-result{
+        width: 25rem;
+        text-align: center;
+    }
+    #result{
+        color: #4164B3;
+    }
+    .btn-result{
+        background-color: #4164B3;
+        text-decoration: none;
+        color: #fff;
+        padding: 1rem;
+        border: none;
+        border-radius: .5rem;
     }
 }
