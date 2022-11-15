@@ -183,6 +183,10 @@ function hideNextBtn(){
     nextQuestion.style.display = "none";
 }
 
+function scrollUp(){
+    window.scrollTo(0,0)
+}
+
 nextQuestion.addEventListener('click', nextQuestionWrapper)
 nextQuestion.addEventListener('click', uncheckRadio)
 confirmAnswer.addEventListener('click', showNextBtn )
