@@ -233,34 +233,34 @@
         gap: 1rem;
     }
     .modal-tittle h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .input-tittles{
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .modal-tittle h3{
-        font-size: 1rem;
+        font-size: .8rem;
         padding-bottom: 1rem;
     }
     .modal-form{
-        width: 100%;
+        width: 80%;
         gap: 1rem;
     }
     .form-and-tittle{
         gap: .5rem;
     }
     .form{
-        font-size: .7rem;
+        font-size: .6rem;
     }
     .form i{
         margin-left: .7rem;
     }
     .form input{
-        height: 4rem;
-        font-size: .7rem;
+        height: 3.5rem;
+        font-size: .6rem;
     }
     .create-account{
-        width: 12rem;
+        width: 10rem;
         height: 3rem;
         font-size: .9rem;
     }
