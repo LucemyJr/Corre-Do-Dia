@@ -451,29 +451,14 @@
         display: none;
     }
     .modal-trial{
-        position: relative;
-        background-color: #fff;
-        width: 40rem;
-        height: 30rem;
-        padding: 1rem;
-        border: 5px solid #4164B3;
-        box-shadow: 0 0 0 5px #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 4rem;
+        width: 20rem;
+        height: 35rem;
     }
     .modal-trial-tittle{
-        text-align: center;
-        font-size: 2rem;
-    }
-    .modal-trial-subtittle{
-        text-align: center;
         font-size: 1.5rem;
     }
-    .modal-trial-subtittle a{
-        color: #4164B3;
+    .modal-trial-subtittle{
+        font-size: 1.2rem;
     }
     .start-trial{
         width: 15rem;
