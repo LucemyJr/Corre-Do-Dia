@@ -240,27 +240,27 @@
     }
     .modal-tittle h3{
         font-size: .8rem;
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
     }
     .modal-form{
-        width: 80%;
+        width: 90%;
         gap: 1rem;
     }
     .form-and-tittle{
         gap: .5rem;
     }
     .form{
-        font-size: .6rem;
+        font-size: .7rem;
     }
     .form i{
         margin-left: .7rem;
     }
     .form input{
-        height: 3.5rem;
-        font-size: .6rem;
+        height: 4rem;
+        font-size: .7rem;
     }
     .create-account{
-        width: 10rem;
+        width: 12rem;
         height: 3rem;
         font-size: .9rem;
     }
@@ -284,13 +284,14 @@
         gap: 2rem;
     }
     .seu-corre-tittle{
-        font-size: .8rem;
+        font-size: .7rem;
     }
     .form-control{
-        width: 21rem;
+        width: 17rem;
         height: 2rem;
     }
     .submit-btn{
-        height: 3rem;
+        height: 2.5rem;
+        font-size: 1rem;
     }
 }
